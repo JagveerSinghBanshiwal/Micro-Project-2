@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    
+}
+
+.nav {
+    position: sticky; /* Makes the navbar sticky */
+    top: 0; /* Sticks the navbar to the top of the page */
+    z-index: 1000; /* Ensures the navbar is above other content */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Vertically centers the items */
+    background-color: #6F6AF7;
+    width: 100%; /* Makes the navbar fill the full width of its container */
+    height: 50px;
+    padding: 0 20px; /* Adds padding on the left and right */
+    
+    
+}
+
+.logo_name {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Delius Unicase', sans-serif;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Allows the link section to grow and occupy available space */
+    gap: 20px; /* Adds space between links */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px; /* Adds padding for a larger clickable area */
+}
+
+.icon {
+    display: flex;
+    flex-direction: column; /* Aligns icons horizontally */
+    align-items: center; /* Centers icons vertically */
+    gap: 5px; /* Adds space between icons */
+}
+
+.img {
+    height: 5px; /* Adjusts height to make icons visible */
+    width: 50px; /* Adjusts width to maintain aspect ratio */
+    border-radius:2px;
+}
+/*kfkfk*/
+.main{
+    display:flex;
+    flex-direction:row;+
+    width:100%
+}
+.sticky-image-box{
+    padding-top:50px;
+}
+.sticky-image-box img{
+    margin-top:50px;
+    position: sticky; /* Makes the navbar sticky */
+    top:100px; /* Sticks the navbar to the top of the page */
+    z-index: 1000; 
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+}
+
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-box {
+    background-color: #e5d0f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background-color: #6f6af7;
+    padding:20px;
+    border-radius: 10px;
+    width: 23%;
+    
+    color:white;
+
+}
+.stat-card:nth-child(1){
+    background-color: #929DFF;
+    
+}
+.stat-card:nth-child(2){
+    background-color: #734CF2;
+}
+
+
+.stat-card:nth-child(3) {
+    background-color: #D288FF;
+
+}
+
+.stat-card:nth-child(4) {
+    background-color: black;
+
+}
+
+.stat-card div {
+    margin:10px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #483EFF;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    padding:20px;
+}
+
+.sidebar button {
+    
+    padding: 10px;
+   
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    width:150px;
+}
+.button1{
+    background-color: #bce0f6; 
+    
+}
+.button2{
+    
+    border-width:  1px;
+    background-color: #483EFF;
+    border-color: white;
+    color:white;
+}
+.button3{
+    background-color: #483EFF;
+    border-width:  1px;
+    color:white;
+    border-color: white;
+    
+}
+.info-content {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+.info-content-div{
+    padding:20px;
+    margin:10px;
+}
+.info-content-div p{
+    margin:10px;
+}
+.next-button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+} 
+.fix-image {
+    position: fixed; /* Fixes the image relative to the viewport */
+    right: 100px;     /* Distance from the right edge of the screen */
+    bottom: 30px;    /* Distance from the bottom edge of the screen */
+    width: 100px;     /* Adjust the size as needed */
+    height: 100px;
+        /* Maintain the aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
